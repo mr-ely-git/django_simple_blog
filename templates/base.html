@@ -1,11 +1,17 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}">
     {% block header_references %}{% endblock %}
 </head>
 <body>
+<header>
+    <h1>Simple Blog</h1>
+</header>
 {% block content %}{% endblock %}
 {% block footer_references %}{% endblock %}
 </body>
