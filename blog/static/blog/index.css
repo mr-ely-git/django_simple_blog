@@ -1,24 +1,18 @@
 
+.blog-post {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+}
 
-        .blog-post {
-            border: 1px solid #ddd;
-            margin: 10px;
-            padding: 10px;
-        }
+.blog-post h2 {
+    margin-top: 0;
+}
 
-        .blog-post h2 {
-            margin-top: 0;
-        }
+.blog-post p {
+    margin: 5px 0;
+}
 
-        .blog-post p {
-            margin: 5px 0;
-        }
-
-        .blog-post a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        .blog-post a:hover {
-            text-decoration: underline;
-        }
+.blog-post a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    single post
+{% endblock %}
+{% block header_references %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'blog/single-post.css' %}">
+{% endblock %}
+{% block content %}
+
+    <div class="post-content">
+        <h2 class="post-title">Sample Blog Post</h2>
+        <p class="post-author">Author: John Doe</p>
+        <p class="post-date">Published: July 20, 2023</p>
+        <div class="post-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec turpis vitae erat blandit condimentum. Duis eu tristique tortor. Sed quis tellus ut libero facilisis dictum. Aliquam in dui non velit consequat ultrices et a quam. Integer convallis fermentum quam. Integer auctor ipsum nec dolor convallis, at tempus ex posuere. Curabitur malesuada tellus nec justo facilisis, ac vehicula lectus ultrices.</p>
+            <p>Proin nec fermentum massa. Fusce tempus dui eu augue fermentum, quis pellentesque justo tempus. Duis sed facilisis odio, in egestas justo. Integer aliquam fringilla mi, quis feugiat enim gravida nec. Praesent eget tincidunt ex. Vestibulum varius ut dolor quis vehicula. Donec malesuada urna ut nisi mollis, ac viverra velit egestas. Proin non laoreet felis, id fermentum felis.</p>
+            <p>Etiam consequat leo nec est lacinia, nec vehicula ipsum consequat. Curabitur aliquet mauris vel dolor scelerisque, sit amet blandit lectus cursus. Sed faucibus non nulla vel gravida. Suspendisse potenti. Integer aliquet, purus eu aliquam rhoncus, libero nunc varius tortor, non congue mauris purus a mauris. Sed id ipsum vel enim venenatis vulputate nec non risus. Vestibulum euismod ligula mi, ut sollicitudin urna fermentum nec. Sed congue orci ac metus rhoncus vestibulum. Proin malesuada felis vitae leo vehicula consectetur. Integer vehicula feugiat nisl, sit amet dignissim purus mattis id.</p>
+        </div>
+    </div>
+
+{% endblock %}
+
