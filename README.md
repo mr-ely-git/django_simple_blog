@@ -1,6 +1,6 @@
 # django_simple_blog
 
-![Project cover](./cover.png)
+![Project cover](./cover.jpg)
 
 ♨️ **Note:** This project was created by MR. Ely and is currently under active development.🍃
 
